@@ -15,12 +15,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
-  /* ==================== RESET ==================== */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
     --bg: #08080a;
-    --bg-2: #0d0d11;
     --surface: #121216;
     --surface-2: #18181d;
     --border: rgba(255,255,255,0.08);
@@ -1034,7 +1032,7 @@
             </div>
           </div>
           <div class="pack-card__actions">
-            <a class="pack-card__btn pack-card__btn--primary" href="#">
+            <a class="pack-card__btn pack-card__btn--primary" href="Blue_Amfibia_s_pack%20(1).zip" download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                 <polyline points="7 10 12 15 17 10"/>
@@ -1079,7 +1077,7 @@
             </div>
           </div>
           <div class="pack-card__actions">
-            <a class="pack-card__btn pack-card__btn--primary" href="#">
+            <a class="pack-card__btn pack-card__btn--primary" href="open.zip" download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                 <polyline points="7 10 12 15 17 10"/>
@@ -1124,7 +1122,7 @@
             </div>
           </div>
           <div class="pack-card__actions">
-            <a class="pack-card__btn pack-card__btn--primary" href="#">
+            <a class="pack-card__btn pack-card__btn--primary" href="amfibia_s_autumn_pack%20(4).zip" download>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
                 <polyline points="7 10 12 15 17 10"/>
@@ -1418,7 +1416,7 @@
 
   /* ==================== REVEAL ==================== */
   const io = new IntersectionObserver((entries) => {
-    entries.forEach((en, i) => {
+    entries.forEach((en) => {
       if (en.isIntersecting) {
         en.target.classList.add('in');
         io.unobserve(en.target);
